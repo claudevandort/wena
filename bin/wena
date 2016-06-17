@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+#ruby -Ilib ./bin/wena
+require 'wena'
+puts Wena.new.wn ARGV[0]
